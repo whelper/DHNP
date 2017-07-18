@@ -489,8 +489,12 @@ p + .event_write {
 .i_new {
 	background: url("../images/products/i_new.png") no-repeat 0px 0px; left: 0px; top: 0px; width: 50px; height: 50px; position: absolute;
 }
+
 .i_new em {
 	text-indent: -9999em; vertical-align: middle; display: block;
+}
+.s_new {
+	background: url("../images/products/i_new.png") no-repeat 0px 0px; left: 0px; top: 0px; width: 50px; height: 50px; position: absolute;
 }
 .i_animal em {
 	text-indent: -9999em; vertical-align: middle; display: block;

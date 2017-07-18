@@ -113,6 +113,7 @@
     <Content Include="common\images\common\favicon.png" />
     <Content Include="common\images\common\gnb_shadow.png" />
     <Content Include="common\images\common\ibtn_x_delete.png" />
+    <Content Include="common\images\common\ico_new.gif" />
     <Content Include="common\images\common\img_top.jpg" />
     <Content Include="common\images\common\i_basket.png" />
     <Content Include="common\images\common\i_copy.png" />

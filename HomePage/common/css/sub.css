@@ -156,8 +156,8 @@
 	margin-right: 0 !important;
 }*/
 
-.list_Item:nth-child(2n) {
-		margin-left: 30px !important;
+.new_list .list_Item:nth-child(2n) {
+	margin-left: 30px !important;
 }
 
 

@@ -405,54 +405,99 @@ namespace CommonLib.Utils
                 }
                 else if ("E".Equals(type))
                 {
-                    #region 한글 종료 범위
-                    switch (exp)
-                    {
-                        case "INIT_1":
-                            result = "낗";
-                            break;
-                        case "INIT_2":
-                            result = "닣";
-                            break;
-                        case "INIT_3":
-                            result = "띻";
-                            break;
-                        case "INIT_4":
-                            result = "맇";
-                            break;
-                        case "INIT_5":
-                            result = "밓";
-                            break;
-                        case "INIT_6":
-                            result = "삫";
-                            break;
-                        case "INIT_7":
-                            result = "앃";
-                            break;
-                        case "INIT_8":
-                            result = "잏";
-                            break;
-                        case "INIT_9":
-                            result = "찧";
-                            break;
-                        case "INIT_10":
-                            result = "칳";
-                            break;
-                        case "INIT_11":
-                            result = "킿";
-                            break;
-                        case "INIT_12":
-                            result = "타";
-                            break;
-                        case "INIT_13":
-                            result = "핗";
-                            break;
-                        case "INIT_14":
-                            result = "힣";
-                            break;
-                    }
-                    #endregion
-                }
+					#region 한글 종료 범위
+					switch (exp)
+					{
+						case "INIT_1":
+							result = "나";
+							break;
+						case "INIT_2":
+							result = "다";
+							break;
+						case "INIT_3":
+							result = "라";
+							break;
+						case "INIT_4":
+							result = "마";
+							break;
+						case "INIT_5":
+							result = "바";
+							break;
+						case "INIT_6":
+							result = "사";
+							break;
+						case "INIT_7":
+							result = "아";
+							break;
+						case "INIT_8":
+							result = "자";
+							break;
+						case "INIT_9":
+							result = "차";
+							break;
+						case "INIT_10":
+							result = "카";
+							break;
+						case "INIT_11":
+							result = "타";
+							break;
+						case "INIT_12":
+							result = "파";
+							break;
+						case "INIT_13":
+							result = "하";
+							break;
+						case "INIT_14":
+							result = "힣";
+							break;
+					}
+					//switch (exp)
+					//{
+					//    case "INIT_1":
+					//        result = "낗";
+					//        break;
+					//    case "INIT_2":
+					//        result = "닣";
+					//        break;
+					//    case "INIT_3":
+					//        result = "띻";
+					//        break;
+					//    case "INIT_4":
+					//        result = "맇";
+					//        break;
+					//    case "INIT_5":
+					//        result = "밓";
+					//        break;
+					//    case "INIT_6":
+					//        result = "삫";
+					//        break;
+					//    case "INIT_7":
+					//        result = "앃";
+					//        break;
+					//    case "INIT_8":
+					//        result = "잏";
+					//        break;
+					//    case "INIT_9":
+					//        result = "찧";
+					//        break;
+					//    case "INIT_10":
+					//        result = "칳";
+					//        break;
+					//    case "INIT_11":
+					//        result = "킿";
+					//        break;
+					//    case "INIT_12":
+					//        result = "탛";
+					//        break;
+					//    case "INIT_13":
+					//        result = "핗";
+					//        break;
+					//    case "INIT_14":
+					//        result = "힣";
+					//        break;
+					//}
+					#endregion
+				}
             }
 
             return result;

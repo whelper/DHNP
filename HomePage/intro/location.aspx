@@ -75,6 +75,11 @@
 					<p><span>▶</span><em class="pR20">Tel :  031-461-0973~4 </em><em>Fax : 031-461-0972</em></p>
 				</li>
 				<li>
+					<h4>인천 지점</h4><a href="javascript:popLocation(37.531615, 126.734167);" class="map_view">약도보기</a>
+					<p><span>▶</span>인천광역시 계양구 작전동 901-3 세종팰리스 8층 802호</p>
+					<p><span>▶</span><em class="pR20">Tel :  032-276-0021 </em><em>Fax : 070-4009-1020</em></p>
+				</li>
+				<li>
 					<h4>부산 지점</h4><a href="javascript:popLocation(35.146556, 129.111926);" class="map_view">약도보기</a>
 					<p><span>▶</span>부산시 수영구 광남로 44 (남천동)</p>
 					<p><span>▶</span><em class="pR20">Tel : 051-554-9841~2</em><em>Fax : 051-554-9843</em></p>

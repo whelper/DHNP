@@ -177,8 +177,14 @@
                         {
                             for (int i = 0; i < GetDataTableCount(3); i++)
                             {
+
+								long gap = (DateTime.Now.Ticks - Convert.ToDateTime(GetData(3, i, "REG_DT")).Ticks);
+								TimeSpan elapsedSpan = new TimeSpan(gap);
+								String icon_new = (elapsedSpan.Days <= 14) ? "<img src=\"/common/images/common/ico_new.gif\" style=\"margin-top:10px\">" : null;
+
+
                     %>
-   						<li><a href="/pr/news_view.aspx?seq_no=<%=GetData(3, i, "SEQ_NO") %>"><%=GetData(3, i, "TTL")%></a><span><%=GetData(3, i, "REG_DT")%></span></li>
+   						<li><a href="/pr/news_view.aspx?seq_no=<%=GetData(3, i, "SEQ_NO") %>"><%=GetData(3, i, "TTL")%></a><%=icon_new %><span><%=GetData(3, i, "REG_DT")%></span></li>
                     <% 
                             }
                         }
