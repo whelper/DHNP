@@ -142,10 +142,10 @@ namespace AdminSite.main
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(checkyn);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("N");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
-                ExecuteQuery(3101, param.ToString());
+				ExecuteQuery(3101, param.ToString());
 
                 string vFile2 = CStringUtil.IsNullOrEmpty(visual_value_02.Value) == false ? UploadFile(visual_text_02, "DIR_MAIN") : "";
                 checkyn = visual_use_yn_2.Checked ? "Y" : "N";
@@ -160,10 +160,10 @@ namespace AdminSite.main
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(checkyn);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("N");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
-                ExecuteQuery(3101, param.ToString());
+				ExecuteQuery(3101, param.ToString());
 
                 string vFile3 = CStringUtil.IsNullOrEmpty(visual_value_03.Value) == false ? UploadFile(visual_text_03, "DIR_MAIN") : "";
                 checkyn = visual_use_yn_3.Checked ? "Y" : "N";
@@ -178,10 +178,10 @@ namespace AdminSite.main
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(checkyn);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("N");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
-                ExecuteQuery(3101, param.ToString());
+				ExecuteQuery(3101, param.ToString());
 
                 string vFile4 = CStringUtil.IsNullOrEmpty(visual_value_04.Value) == false ? UploadFile(visual_text_04, "DIR_MAIN") : "";
                 checkyn = visual_use_yn_4.Checked ? "Y" : "N";
@@ -196,10 +196,10 @@ namespace AdminSite.main
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(checkyn);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("N");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
-                ExecuteQuery(3101, param.ToString());
+				ExecuteQuery(3101, param.ToString());
 
                 string vFile5 = CStringUtil.IsNullOrEmpty(visual_value_05.Value) == false ? UploadFile(visual_text_05, "DIR_MAIN") : "";
                 checkyn = visual_use_yn_5.Checked ? "Y" : "N";
@@ -207,17 +207,18 @@ namespace AdminSite.main
                 param.Append(LANG_CD);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(inputType);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("10");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append(vFile5);
+				param.Append(CConst.DB_PARAM_DELIMITER).Append(vFile5);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(visual_url_05.Value);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(Session["admin_id"]);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(checkyn);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("N");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+                param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+                param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
-                ExecuteQuery(3101, param.ToString());
+
+				ExecuteQuery(3101, param.ToString());
 
                 SearchData();
 
@@ -251,8 +252,8 @@ namespace AdminSite.main
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("Y");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(checkyn);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+                param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+                param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
                 ExecuteQuery(3101, param.ToString());
 
@@ -279,8 +280,8 @@ namespace AdminSite.main
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("Y");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(checkyn);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+                param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+                param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
                 ExecuteQuery(3101, param.ToString());
 
@@ -305,14 +306,14 @@ namespace AdminSite.main
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(vFile1);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(pdt_url_01.Value);
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(Session["admin_id"]); // 로그인ID는 나중에 세션값 체크하여 가져오게 변경(일단 admin로 박음)
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append(prod_icon);
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append(prod_icon);
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
-                ExecuteQuery(3101, param.ToString());
+				ExecuteQuery(3101, param.ToString());
 
                 string vFile2 = CStringUtil.IsNullOrEmpty(pdt_value_02.Value) == false ? UploadFile(pdt_text_02, "DIR_MAIN") : "";
                 param.Length = 0;
@@ -326,10 +327,10 @@ namespace AdminSite.main
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(prod_icon);
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
-                ExecuteQuery(3101, param.ToString());
+				ExecuteQuery(3101, param.ToString());
 
                 string vFile3 = CStringUtil.IsNullOrEmpty(pdt_value_03.Value) == false ? UploadFile(pdt_text_03, "DIR_MAIN") : "";
                 param.Length = 0;
@@ -343,10 +344,10 @@ namespace AdminSite.main
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(prod_icon);
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
-                ExecuteQuery(3101, param.ToString());
+				ExecuteQuery(3101, param.ToString());
 
                 string vFile4 = CStringUtil.IsNullOrEmpty(pdt_value_04.Value) == false ? UploadFile(pdt_text_04, "DIR_MAIN") : "";
                 param.Length = 0;
@@ -360,10 +361,10 @@ namespace AdminSite.main
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(prod_icon);
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
-                param.Append(CConst.DB_PARAM_DELIMITER).Append("");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
-                ExecuteQuery(3101, param.ToString());
+				ExecuteQuery(3101, param.ToString());
 
                 string vFile5 = CStringUtil.IsNullOrEmpty(pdt_value_05.Value) == false ? UploadFile(pdt_text_05, "DIR_MAIN") : "";
                 param.Length = 0;
@@ -377,8 +378,10 @@ namespace AdminSite.main
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append("");
                 param.Append(CConst.DB_PARAM_DELIMITER).Append(prod_icon);
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
+				param.Append(CConst.DB_PARAM_DELIMITER).Append("0");
 
-                ExecuteQuery(3101, param.ToString());
+				ExecuteQuery(3101, param.ToString());
 
                 SearchData();
 

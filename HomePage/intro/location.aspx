@@ -55,23 +55,23 @@
 			<ul>
 				<li>
 					<h4>서울 1 지점</h4><a href="javascript:popLocation(37.557191, 126.864411);" class="map_view">약도보기</a>
-					<p><span>▶</span>서울시 강서구 양천로 583 우림블루나인센터 B동 1804호</p>
+					<p><span>▶</span>서울시 강서구 양천로 583 우림블루나인센터 <br />&nbsp;&nbsp;&nbsp;B동 1804호</p>
 					<p><span>▶</span><em class="pR20">Tel : 070-4748-6678 </em><em>Fax : 070-4015-1229 </em></p>
 				</li>
 				<li>
 					<h4>서울 2 지점</h4><a href="javascript:popLocation(37.553623, 127.194633);" class="map_view">약도보기</a>
-					<p><span>▶</span>경기도 하남시 조정대로 150(덕풍동)762 아이테코 그린존 220호</p>
+					<p><span>▶</span>경기도 하남시 조정대로 150(덕풍동)762 <br />&nbsp;&nbsp;&nbsp;아이테코 그린존 220호</p>
 					<p><span>▶</span><em class="pR20">Tel :  02-463-8188 </em><em>Fax : 02-463-8189 </em></p>
 						
 				</li>
 				<li>
 					<h4>서울 3 지점</h4><a href="javascript:popLocation(37.639958, 126.786115);" class="map_view">약도보기</a>
-					<p><span>▶</span>경기도 고양시 일산동구 호수로 358-25 (백석동) 동문굿모닝타워2차 712,713호</p>
+					<p><span>▶</span>경기도 고양시 일산동구 호수로 358-25 (백석동) <br />&nbsp;&nbsp;&nbsp;동문굿모닝타워2차 712,713호</p>
 					<p><span>▶</span><em class="pR20">Tel : 070-4734-7607 </em><em>Fax : 070-4015-1222</em></p>
 				</li>
 				<li>
 					<h4>경기 지점</h4><a href="javascript:popLocation(37.274813, 127.073696);" class="map_view">약도보기</a>
-					<p><span>▶</span>경기도 용인시 기흥구 흥덕1로101(영덕동) 스타프라자 5층 504호</p>
+					<p><span>▶</span>경기도 용인시 기흥구 흥덕1로101(영덕동) <br />&nbsp;&nbsp;&nbsp;스타프라자 5층 504호</p>
 					<p><span>▶</span><em class="pR20">Tel :  031-461-0973~4 </em><em>Fax : 031-461-0972</em></p>
 				</li>
 				<li>
@@ -86,12 +86,12 @@
 				</li>
 				<li>
 					<h4>대구 지점</h4><a href="javascript:popLocation(35.921066, 128.598935);" class="map_view">약도보기</a>
-					<p><span>▶</span>대구시 북구 호국로 207  제일빌딩 3층</p>
+					<p><span>▶</span>대구광역시 동구 팔공로47길 46(봉무동 1548-8) <br />&nbsp;&nbsp;&nbsp;캐슬빌딩 305호</p>
 					<p><span>▶</span><em class="pR20">Tel : 053-951-5614</em><em>Fax : 053-951-5615</em></p>
 				</li>
 				<li>
 					<h4>대전 지점</h4><a href="javascript:popLocation(36.363231, 127.336671);" class="map_view">약도보기</a>
-					<p><span>▶</span> 대전시 유성구 유성대로 785, 경롱빌딩 6층(장대동)</p>
+					<p><span>▶</span> 대전시 유성구 유성대로 785, 경롱빌딩 6층<br />&nbsp;&nbsp;&nbsp;(장대동)</p>
 					<p><span>▶</span><em class="pR20">Tel : 042-624-0451</em><em>Fax : 042-624-0452</em></p>
 				</li>
 				<li>

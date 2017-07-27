@@ -16,6 +16,32 @@
 			<div class ="leave content_01" >
 				<img src="/common/images/sub/title_2010.gif" alt="전략적 이노베이션">
 				<div class="list mT_20">
+					<h2>2017년</h2>
+					<ul>
+						<li><span>03/28</span>BNC KOREA 필러 제품(큐젤 등) 국내  독점 판매 계약 체결</li>
+						<li><span>03/01</span>국내 최초 젖소 유방염 다가 백신 '히프라 스타박' 출시</li>
+					</ul>
+				</div>
+				<div class="list">
+					<h2>2016년</h2>
+					<ul>
+						<li><span>10/17</span>자가섬유아세포치료제 "큐어스킨" 독점  공급 계약 체결</li>
+						<li><span>10/01</span>조사료 신규사업 추진</li>
+						<li><span>09/13</span>섬유아세포 분리방법 특허 출원</li>
+						<li><span>08/29</span>미슬토 주사제 "이스카도" 국내  독점 판매 계약 체결</li>
+						<li><span>05/01</span>PPC제제, 일본  수출 계약 체결</li>
+						<li><span>04/01</span>수출의약품(제품명: Trimedat), Russian Pharma Awards수상</li>
+					</ul>
+				</div>
+				<div class="list">
+					<h2>2015년</h2>
+					<ul>
+						<li><span>12/15</span>서울대학교와 줄기세포 공동연구 협약 체결</li>
+						<li><span>12/05</span>'천만불 수출탑' 수상</li>
+						<li><span>12/01</span>루치온 스킨케어 화장품, 중국 수출 계약 체결</li>
+					</ul>
+				</div>
+				<div class="list">
 					<h2>2014년</h2>
 					<ul>
 						<li><span>04/02</span>바이오 사업 세포 배지 제조 공장 준공(경기도 화성)</li>

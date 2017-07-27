@@ -180,7 +180,7 @@
 
 								long gap = (DateTime.Now.Ticks - Convert.ToDateTime(GetData(3, i, "REG_DT")).Ticks);
 								TimeSpan elapsedSpan = new TimeSpan(gap);
-								String icon_new = (elapsedSpan.Days <= 14) ? "<img src=\"/common/images/common/ico_new.gif\" style=\"margin-top:10px\">" : null;
+								String icon_new = (elapsedSpan.Days <= 3) ? "<img src=\"/common/images/common/ico_new.gif\" style=\"margin-top:10px\">" : null;
 
 
                     %>
