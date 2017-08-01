@@ -164,6 +164,8 @@
                         <li><a href="/en/customer/inquire.aspx"><img src="/en/common/images/main/customer_03.png" alt="제휴제안 - +82 2 3415-7833" /></a></li>
    					</ul>		
    				</article> <!-- // customer -->
+					
+					<!--
    				<article class="products_manu clear">
    					<h1 class="acc-hidden">제품메뉴로 바로가기</h1>
    					<a href="/en/products/human_new_list.aspx" class="line_Lno"><img src="/en/common/images/main/i_memu_01.png" alt="인체의 약품 " /></a>
@@ -184,7 +186,18 @@
                             }
                         }
                     %>
-   				</article> <!-- // customer -->
+   				</article> -->
+
+					<ARTICLE class="products_manu clear">
+					<H1 class="acc-hidden">제품메뉴로 바로가기</H1>
+					<A class="line_Lno" href="/en/products/human_new_list.aspx"><IMG alt="인체의 약품" src="/en/common/images/main/i_memu_01.png" onmouseover="this.src='/en/common/images/main/i_memu_01_on.png'" onmouseout="this.src='/en/common/images/main/i_memu_01.png'"></A>      
+					<A href="/en/products/animal_new_list.aspx"><IMG alt="동물의 약품" src="/en/common/images/main/i_memu_02.png" onmouseover="this.src='/en/common/images/main/i_memu_02_on.png'" onmouseout="this.src='/en/common/images/main/i_memu_02.png'"></A>      
+					<A href="/en/products/bio_badge_list.aspx"><IMG alt="바이오 약품" src="/en/common/images/main/i_memu_03.png" onmouseover="this.src='/en/common/images/main/i_memu_03_on.png'" onmouseout="this.src='/en/common/images/main/i_memu_03.png'"></A>      
+
+
+					</ARTICLE>
+					
+					<!-- // customer -->
 
    			</section>	<!--// main_content -->
    		</div> <!--// container_content -->

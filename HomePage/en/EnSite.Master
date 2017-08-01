@@ -117,11 +117,14 @@
         <aside id="quick_menu">
 		    <h1><span>Quick Menu</span></h1>
 		    <ul>
-			    <li class="qu_01"><a href="/en/index.aspx">home</a></li>
+		      <LI class="qu_01"><A href="/en/products/human_new_list.aspx"></A></LI>
+                      <LI class="qu_02"><A href="/en/products/animal_new_list.aspx"></A></LI>
+                      <LI class="qu_03"><A href="/en/products/bio_badge_list.aspx"></A></LI>
+			    <%--<li class="qu_01"><a href="/en/index.aspx">home</a></li>
 			    <li class="qu_02"><a href="/en/products/human_new_list.aspx">Quick menu</a></li>
 			    <li class="qu_03"><a href="/en/products/animal_new_list.aspx"> Animal Health & Nutrition</a></li>
 			    <li class="qu_04"><a href="/en/products/bio_badge_list.aspx"> Bioprocess</a></li>
-			    <%--<li class="qu_05"><a href="/en/recruit/new_person.aspx">채용안내</a></li>--%>
+			    <li class="qu_05"><a href="/en/recruit/new_person.aspx">채용안내</a></li>--%>
 				 
 		    </ul>
 			<% 
@@ -154,7 +157,8 @@
             <% 
                 }
             %>
-		    <a href="#top" class="btn_top"><span>맨위로 </span></a>
+		    <!--<a href="#top" class="btn_top"><span>맨위로 </span></a>-->
+		    <div><a href="#top"><img alt="" src="/common/images/common/img_top.jpg"></a></div>
         </aside>  <!-- //  quick_menu -->
 	    <hr>
         <footer class="footer">

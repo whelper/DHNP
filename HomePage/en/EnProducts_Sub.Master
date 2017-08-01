@@ -261,14 +261,48 @@
     <aside id="quick_menu">
 		<h1><span>Quick Menu</span></h1>
 		<ul>
-			<li class="qu_01"><a href="/en/index.aspx">home</a></li>
+		  <LI class="qu_01"><A href="/en/products/human_new_list.aspx"></A></LI>
+                  <LI class="qu_02"><A href="/en/products/animal_new_list.aspx"></A></LI>
+                  <LI class="qu_03"><A href="/en/products/bio_badge_list.aspx"></A></LI>
+			<%--<li class="qu_01"><a href="/en/index.aspx">home</a></li>
 			<li class="qu_02"><a href="/en/products/human_new_list.aspx">Quick menu</a></li>
 			<li class="qu_03"><a href="/en/products/animal_new_list.aspx"> Animal Health & Nutrition</a></li>
 			<li class="qu_04"><a href="/en/products/bio_badge_list.aspx"> Bioprocess</a></li>
-			<%--<li class="qu_05"><a href="/en/recruit/new_person.aspx">채용안내</a></li>--%>
+			<li class="qu_05"><a href="/en/recruit/new_person.aspx">채용안내</a></li>--%>
 		</ul>
-        <a href="#top" class="btn_top"><span>맨위로 </span></a>
-    </aside>  <!-- //  quick_menu -->
+        <% 
+                if (MDS != null && MDS.Tables.Count > 0 && MDS.Tables[0].Rows.Count > 0)
+                {
+            %>
+		    <div class="quick_ad">
+                <% 
+                    
+                    string quick_target = "Y".Equals(MDS.Tables[0].Rows[0]["TARGET_YN"]) ? "_blank" : "_self";   
+                    
+                    if ("".Equals(MDS.Tables[0].Rows[0]["LINK_URL"].ToString()) == false)
+                    {
+                        // 링크가 있는 경우
+                %>
+			    <a href="<%=MDS.Tables[0].Rows[0]["LINK_URL"] %>" target="<%=quick_target %>">
+                    <img src="<%=MDS.Tables[0].Rows[0]["FILE_PATH"] %>" alt="해외자원 개발 IMG ">
+                </a>
+                <% 
+                    }
+                    else
+                    {
+                        // 링크 없음 - 이미지만 표시
+                %>
+                <img src="<%=MDS.Tables[0].Rows[0]["FILE_PATH"] %>" alt="해외자원 개발 IMG ">
+                <%
+                    } 
+                %>
+		    </div>
+            <% 
+                }
+            %>
+		    <!--<a href="#top" class="btn_top"><span>맨위로 </span></a>-->
+		    <div><a href="#top"><img alt="" src="/common/images/common/img_top.jpg"></a></div>
+        </aside>  <!-- //  quick_menu -->
 	<hr>
 	<footer class="footer">
 		<article class="footer_content">
